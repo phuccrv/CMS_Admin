@@ -7,8 +7,8 @@ const HomeCMS = () => {
   return (
     <div className="home-show">
       <Header />
-      {/* <Sidebar/> */}
-      <FormsElements/>
+      <Sidebar/>
+      {/* <FormsElements/> */}
     </div>
   );
 };

@@ -9,6 +9,9 @@
     display: inline-block;
     width: 250px;
     height: 100vw;
+    position: sticky;
+    top: 0;
+    
 }
 
 .list-sidebar-menu ul li{
@@ -55,3 +58,9 @@
     top: 15px;
     font-size: 15px;
 }
+
+
+.list-sidebar-menu ul li.active a {
+    color: white;
+  }
+

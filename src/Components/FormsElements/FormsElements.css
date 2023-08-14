@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+.FormsElements{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
 .title-FormsElements{
     color: white;
-    margin: 15px 15px;
+    margin: 20px 0px 20px 20px;
 }
 
 .link-pages{
@@ -26,7 +33,7 @@
     border-radius: 10px;
     margin: 0px 20px;
     display: inline-block;
-    width: 445px;
+    /* width: 100%; */
     margin-bottom: 20px;
 }
 
@@ -66,7 +73,7 @@
     border: 0.1px solid #6c859c;
     padding: 5px 10px;
     border-radius: 5px;
-    width: 400px;
+    width: 100%;
     height: 40px;
     margin-bottom: 20px;
 }
@@ -84,8 +91,14 @@
     margin: 10px 0px;
     background-color: #252b3b;
     border: #6c859c 0.1px solid;
-    width: 400px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
 }
 
+
+.component-header-FormsElements{
+    display: flex;
+    background-color: #1b1e25;
+    width: 100%;
+}
