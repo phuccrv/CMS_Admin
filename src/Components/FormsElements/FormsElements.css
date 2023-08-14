@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title-FormsElements{
+    color: white;
+    margin: 15px 15px;
+}
+
+.link-pages{
+    display: flex;
+    align-items: flex-end;
+}
+
+.link-pages span{
+    margin: 0px 10px;
+    font-size: 14px;
+    color: rgb(207, 207, 208);
+}
+
+.Textual-inputs{
+    background-color: #252b3b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0px 20px;
+    display: inline-block;
+    width: 445px;
+    margin-bottom: 20px;
+}
+
+.card-title h5{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.text-Textual p{
+    color: #6c859c;
+    font-size: 17px;
+    width: 320px;
+    line-height: 30px;
+
+}
+
+.card-title-desc{
+    margin-bottom: 30px;
+}
+
+.text-Textual span{
+    color: #e83e8c;
+}
+
+
+.form-Textual-inputs label{
+    color:#6c859c;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+
+
+.form-Textual-inputs input{
+    background-color: #252b3b;
+    border: 0.1px solid #6c859c;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.form-Textual-inputs input::placeholder{
+    color: #6c859c;
+}
+
+.input-color{
+    width: 60px !important;
+}
+
+.select{
+    display: block;
+    margin: 10px 0px;
+    background-color: #252b3b;
+    border: #6c859c 0.1px solid;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+

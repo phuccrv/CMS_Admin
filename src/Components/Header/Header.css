@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-topbar{
+    background-color:#272d3e;
+    height: 70px;
+    width: 100%;
+}
+
+.navbar-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand-box{
+    background-color: #252B3B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+}
+
+.icon-menu{
+    height: 30px;
+    background-color: #272d3e;
+    border: none;
+    color: #919bae;
+    margin: 0px 15px;
+    font-size: 27px;
+}
+
+.icon-search{
+    font-size: 27px;
+    color: #919bae;
+}
+
+.navbar-header input{
+    display: none;
+}
+
+
+.header-right-imgamerica img{
+    width: 24px;
+    height: 17px;
+}
+
+.imgae-avatar-admin img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.imgae-avatar-admin>p{
+    display: none;
+}
+
+.icon{
+    font-size: 27px;
+    margin: 0px 15px;
+    color: #919bae;
+}
