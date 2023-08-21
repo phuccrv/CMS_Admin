@@ -1,33 +1,35 @@
-*{
+
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.FormsElements{
+.FormsElements {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
+
 }
 
-.title-FormsElements{
+.title-FormsElements {
     color: white;
     margin: 20px 0px 20px 20px;
 }
 
-.link-pages{
+.link-pages {
     display: flex;
     align-items: flex-end;
 }
 
-.link-pages span{
+.link-pages span {
     margin: 0px 10px;
     font-size: 14px;
     color: rgb(207, 207, 208);
 }
 
-.Textual-inputs{
+.Textual-inputs {
     background-color: #252b3b;
     padding: 10px 20px;
     border-radius: 10px;
@@ -37,13 +39,13 @@
     margin-bottom: 20px;
 }
 
-.card-title h5{
+.card-title h5 {
     color: white;
     font-weight: 500;
     margin-bottom: 5px;
 }
 
-.text-Textual p{
+.text-Textual p {
     color: #6c859c;
     font-size: 17px;
     width: 320px;
@@ -51,24 +53,24 @@
 
 }
 
-.card-title-desc{
+.card-title-desc {
     margin-bottom: 30px;
 }
 
-.text-Textual span{
+.text-Textual span {
     color: #e83e8c;
 }
 
 
-.form-Textual-inputs label{
-    color:#6c859c;
+.form-Textual-inputs label {
+    color: #6c859c;
     display: inline-block;
     margin-bottom: 15px;
 }
 
 
 
-.form-Textual-inputs input{
+.form-Textual-inputs input {
     background-color: #252b3b;
     border: 0.1px solid #6c859c;
     padding: 5px 10px;
@@ -76,17 +78,18 @@
     width: 100%;
     height: 40px;
     margin-bottom: 20px;
+    caret-color: white;
 }
 
-.form-Textual-inputs input::placeholder{
+.form-Textual-inputs input::placeholder {
     color: #6c859c;
 }
 
-.input-color{
+.input-color {
     width: 60px !important;
 }
 
-.select{
+.select {
     display: block;
     margin: 10px 0px;
     background-color: #252b3b;
@@ -94,11 +97,82 @@
     width: 100%;
     height: 40px;
     border-radius: 5px;
+
+}
+
+.cart-examplerange-top {
+    display: flex;
+}
+
+.box-example {
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.box-example h5 {
+    color: white;
+}
+
+.box-example p {
+    color: #6c859c;
+}
+
+.cart-examplerange-bottom {
+    display: flex;
 }
 
 
-.component-header-FormsElements{
+.component-header-FormsElements {
     display: flex;
     background-color: #1b1e25;
     width: 100%;
+}
+
+.form-Textual-inputs input[type="datetime-local"] {
+    color: #6c859c;
+    
+}
+
+.form-Textual-inputs input[type="date"] {
+    color: #6c859c;
+}
+
+.form-Textual-inputs input[type="month"] {
+    color: #6c859c;
+}
+
+.form-Textual-inputs input[type="week"] {
+    color: #6c859c;
+}
+
+.form-Textual-inputs input[type="time"] {
+    color: #6c859c;
+}
+
+.select, option{
+    color: #6c859c;
+    border: none;
+}
+
+.react-dropdown-select-input{
+    display: none;
+}
+
+.css-wmy1p7-ReactDropdownSelect:hover, .css-wmy1p7-ReactDropdownSelect:focus-within{
+    border-color:#6c859c;
+}
+
+.css-wmy1p7-ReactDropdownSelect{
+    border:1px solid #6c859c !important;
+}
+
+.css-wmy1p7-ReactDropdownSelect *{
+    background-color: #252b3b;
+}
+
+.css-z2hyoe-ItemComponent{
+    border-bottom: 1px solid  màu ch ;
+}
+.css-j0fte1-DropDown{
+    border: 1px solid #6c859c !important;
 }

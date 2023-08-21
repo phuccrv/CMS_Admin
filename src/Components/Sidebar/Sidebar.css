@@ -64,3 +64,14 @@
     color: white;
   }
 
+  .sub-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    
+  }
+  
+  .active .sub-menu {
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in-out;
+  }

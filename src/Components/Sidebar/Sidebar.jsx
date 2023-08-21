@@ -81,19 +81,19 @@ const Sidebar = () => {
                 <AiFillCaretDown className="icon-down"></AiFillCaretDown>
               </Link>
             </li>
-            <li onClick={toggleFormsSubMenu}>
+            <li onClick={toggleFormsSubMenu} className={showFormsSubMenu ? "active" : ""}>
               <Link>
                 <BsFillFileEarmarkMinusFill />
                 <span>Forms</span>
                 <AiFillCaretDown className="icon-down"></AiFillCaretDown>
               </Link>
               {showFormsSubMenu && (
-                <ul className="sub-menu">
+                <ul className={`sub-menu ${showFormsSubMenu ? "active" : ""}`}>
                   <li>
                     <Link to="/formelements">Form Elements</Link>
                   </li>
                   <li>
-                    <Link to="#">Form Validation</Link>
+                    <Link to="/formvalidation">Form Validation</Link>
                   </li>
                   <li>
                     <Link to="#">Form Advanced Plugins</Link>

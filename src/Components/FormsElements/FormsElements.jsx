@@ -3,7 +3,14 @@ import "./FormsElements.css";
 import { AiOutlineRight } from "react-icons/ai";
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
+import Select from "react-dropdown-select";
+import "react-datepicker/dist/react-datepicker-cssmodules.css";
 const FormsElements = () => {
+  const options = [
+    { value: "Select", label: "Select" },
+    { value: "Large select", label: "Large select" },
+    { value: "Small select", label: "Small select" },
+  ];
   return (
     <div>
       <Header />
@@ -66,6 +73,7 @@ const FormsElements = () => {
               <label htmlFor="">Date</label>
               <br />
               <input type="date" />
+              
               <br />
               <label htmlFor="">Month</label>
               <br />
@@ -84,11 +92,11 @@ const FormsElements = () => {
               <input type="color" className="input-color" placeholder="42" />
               <br />
               <label htmlFor="">Select</label>
-              <select className="select">
-                <option value="">Select</option>
-                <option value="">Large select</option>
-                <option value="">Small select</option>
-              </select>
+              <Select
+                className="select"
+                options={options}
+                placeholder="Select an option"
+              />
               <label htmlFor="">Datalists</label>
               <br />
               <input type="text" placeholder="Type to search..." />
@@ -128,12 +136,36 @@ const FormsElements = () => {
               </p>
             </div>
             <div className="form-Textual-inputs">
-              <label htmlFor="">Example range</label>
-              <br />
-              <input type="range" placeholder=".form-control-lg" />
-              <label htmlFor="">Disabled Range</label>
-              <br />
-              <input type="range" placeholder=".form-control-lg" />
+              <div className="cart-examplerange-top">
+                <div className="box-example">
+                  <label htmlFor="">Example range</label>
+                  <br />
+                  <input type="range" placeholder=".form-control-lg" />
+                </div>
+                <div className="box-example">
+                  <label htmlFor="">Disabled Range</label>
+                  <br />
+                  <input type="range" placeholder=".form-control-lg" />
+                </div>
+              </div>
+              <div className="cart-examplerange-bottom">
+                <div className="box-example">
+                  <h5>Min and max</h5>
+                  <p>
+                    Range inputs have implicit values for min and max—0 and 100,
+                    respectively.
+                  </p>
+                  <input type="range" />
+                </div>
+                <div className="box-example">
+                  <h5>Min and max</h5>
+                  <p>
+                    Range inputs have implicit values for min and max—0 and 100,
+                    respectively.
+                  </p>
+                  <input type="range" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
